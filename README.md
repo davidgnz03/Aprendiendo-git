@@ -27,13 +27,18 @@ git add <NombreDelArchivo>
 El comando `git add <FileNames>` ayuda a seleccionar los archivos que desea mover al area de preparacion (**staging area**), marcandolos para que sean incluidos en el proximo commit. Puedes seleccionar todos los archivos, carpetas y archivos especificos.
 
 ```
+git add .
+```
+El comando `git add .` te permite añadir todos los archivos que se enecuentren en el **working directory** lo cual facilita la inclusión de multiples archivos hacía la **staging area**.
+
+```
 git commit -m "Mi primer commit usando GIT"
 ```
 
 "Comprometer los archivos", el comando `git commit -m` es como crear un snapshot (**una copia de como se encuentran los archivos en ese momento**) del repositorio. 
-Los snapshots son una copia de tu repositiorio en tiempos especificos.
-Como recomendación se deben realizar commits a menudo,  para concer el historial de tus cambios.
-la opción `-m` te permite añadir un mensaje a tu commit
+- Los snapshots son una copia de tu repositiorio en tiempos especificos.
+-Como recomendación se deben realizar commits a menudo,  para concer el historial de tus cambios.
+- La opción `-m` te permite añadir un mensaje a tu commit.
 
 ```
 git commit -am "Mi primer commit usando GIT "
@@ -58,7 +63,7 @@ En la siguiente imagen se observan los tres bloques centrales de Git
 git log
 ```
 Buscar e inspeccionar la evolución de los archivos del proyecto. Mayor visivilidar que te permite conocer datos como: 
-- Author:el usuario y correo electrónico de la persona que realizó el commit
+- Author: El usuario y correo electrónico de la persona que realizó el commit
 - Date: Fecha y hora en que se ejecutó el commit
 - Commit Message: Breve descripción referente al cambio realizado
 
