@@ -69,6 +69,10 @@ Buscar e inspeccionar la evolución de los archivos del proyecto. Mayor visivili
 - Commit Message: Breve descripción referente al cambio realizado
 #
 
+https://github.com/git-guides
+#
+https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+#
 
 
 
