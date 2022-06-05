@@ -10,27 +10,28 @@
 git --verision
 ```
 El comando `git --version` sirve para conocer la versión de git que tenemos instalada en nuestro sistema operativo MacOS/Windows/Linux
-
+#
 ```
 git init
 ```
 El comando `git init` nos permite crear un nuevo repositorio de Git. Puede utilizarse para convertir un proyecto existente y sin versión en un repositorio de Git, o para inicializar un nuevo repositorio vacío. La mayoría de los demás comandos de Git no se encuentran disponibles fuera de un repositorio inicializado, por lo que este suele ser el primer comando que se ejecuta en un proyecto nuevo.
-
+#
 ```
 git status
 ```
 El comando `git status` muestra el estado actual del directorio de trabajo (**working directory**) y el área de preparacion (**staging area**) de git
-
+#
 ```
 git add <NombreDelArchivo>
 ```
 El comando `git add <FileNames>` ayuda a seleccionar los archivos que desea mover al area de preparacion (**staging area**), marcandolos para que sean incluidos en el proximo commit. Puedes seleccionar todos los archivos, carpetas y archivos especificos.
-
+#
 ```
 git add .
 ```
 El comando `git add .` te permite añadir todos los archivos que se enecuentren en el **working directory** lo cual facilita la inclusión de multiples archivos hacía la **staging area**.
-
+> Se recomienda tener cuidado ya que pueden existir archivos que no deben ser compartidos como archivos de configuración, variables, etc. 
+#
 ```
 git commit -m "Mi primer commit usando GIT"
 ```
@@ -39,7 +40,7 @@ git commit -m "Mi primer commit usando GIT"
 - Los snapshots son una copia de tu repositiorio en tiempos especificos.
 -Como recomendación se deben realizar commits a menudo,  para concer el historial de tus cambios.
 - La opción `-m` te permite añadir un mensaje a tu commit.
-
+#
 ```
 git commit -am "Mi primer commit usando GIT "
 ```
@@ -66,7 +67,7 @@ Buscar e inspeccionar la evolución de los archivos del proyecto. Mayor visivili
 - Author: El usuario y correo electrónico de la persona que realizó el commit
 - Date: Fecha y hora en que se ejecutó el commit
 - Commit Message: Breve descripción referente al cambio realizado
-
+#
 
 
 
