@@ -57,4 +57,12 @@ En la siguiente imagen se observan los tres bloques centrales de Git
 ```
 git log
 ```
-Buscar e inspeccionar la evolución de los archivos del proyecto.
+Buscar e inspeccionar la evolución de los archivos del proyecto. Mayor visivilidar que te permite conocer datos como: 
+- Author:el usuario y correo electrónico de la persona que realizó el commit
+- Date: Fecha y hora en que se ejecutó el commit
+- Commit Message: Breve descripción referente al cambio realizado
+
+
+
+
+
